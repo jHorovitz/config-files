@@ -1,0 +1,3 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =1
+let g:netrw_dirhist_1='/home/likewise-open/ANT/horovitz/ec2/patches/20081021-dublin/dropletman/src/lib'
