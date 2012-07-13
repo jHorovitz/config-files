@@ -3,6 +3,8 @@ set autoindent
 
 " tabsize
 set tabstop=2
+set shiftwidth=2
+set expandtab
 
 "show syntax
 syntax on
@@ -12,6 +14,7 @@ set incsearch
 
 " jk to exit to normal mode, in addition to esc. 
 :imap jk <Esc>
+:imap jl <Esc>
 
 "map ':' to ';'
 nnoremap ; :
@@ -44,4 +47,6 @@ map ] <C-]>
 "" Show the buffer number in the status line.
 set laststatus=2 statusline=%02n:%<%f\ %h%m%r%=%-14.(%l,%c%V%)\ %P
 
-colorscheme morning
+set nu
+
+colorscheme default

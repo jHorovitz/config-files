@@ -1,3 +1,8 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =1
+let g:netrw_dirhist_cnt =6
 let g:netrw_dirhist_1='/home/likewise-open/ANT/horovitz/ec2/patches/20081021-dublin/dropletman/src/lib'
+let g:netrw_dirhist_2='/Users/jonathanhorovitz/Desktop/ruote/ruote/lib/ruote'
+let g:netrw_dirhist_3='/Users/jonathanhorovitz/Desktop/ruote'
+let g:netrw_dirhist_4='/Users/jonathanhorovitz/Desktop/Flow/db/migrate'
+let g:netrw_dirhist_5='/Users/jonathanhorovitz/Desktop/Flow/app/views/layouts'
+let g:netrw_dirhist_6='/Users/jonathanhorovitz/flow/db/migrate'
