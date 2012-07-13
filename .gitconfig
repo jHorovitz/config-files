@@ -1,0 +1,32 @@
+[user]
+	name = Jonathan Horovitz
+	email = jonathan.horovitz@gmail.com
+[core]
+	editor = vim
+	excludesfile = /Users/jonathanhorovitz/.gitignore_global
+[alias]
+	unstage = reset HEAD --
+[github]
+	user = jHorovitz
+	token = 5dabc9e08490de3062a3ad5959830723
+
+[color]
+  branch = auto
+  diff = auto
+  status = auto
+
+[color "branch"]
+  current = yellow reverse
+  local = yellow
+  remote = green
+
+[color "diff"]
+  meta = yellow bold
+  frag = magenta bold
+  old = red bold
+  new = green bold
+
+[color "status"]
+  added = green bold
+  changed = red bold
+  untracked = cyan bold
