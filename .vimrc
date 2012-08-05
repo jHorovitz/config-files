@@ -15,18 +15,16 @@ set incsearch
 " jk to exit to normal mode, in addition to esc. 
 :imap jk <Esc>
 :imap jl <Esc>
+:imap JK <Esc>
+:imap Jk <Esc>
 
 "map ':' to ';'
 nnoremap ; :
 
 let mapleader = ","
 
-" commandT to find files
-map <Leader>f :CommandT<Return>
-
 map <Leader>a :bprev<Return>
 map <Leader>s :bnext<Return>
-nmap <Leader>x :BufClose
 
 " Map ctrl-movement keys to window switching
 map <Leader>k <C-w><Up>
@@ -34,6 +32,7 @@ map <Leader>j <C-w><Down>
 map <Leader>l <C-w><Right>
 map <Leader>h <C-w><Left>
 map <Leader>m <C-w><C-w>
+
 " open new window in vertical split
 map <Leader>n :vsplit<Return>
 " close window.
