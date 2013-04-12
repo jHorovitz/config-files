@@ -1,6 +1,8 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =4
+let g:netrw_dirhist_cnt =6
 let g:netrw_dirhist_1='/Users/jonathanhorovitz/flow/app/models'
 let g:netrw_dirhist_2='/Users/jonathanhorovitz/nachos/bin'
 let g:netrw_dirhist_3='/Users/jonathanhorovitz/proj1cs162/nachos'
 let g:netrw_dirhist_4='/Applications/Privoxy/readme.rtfd'
+let g:netrw_dirhist_5='/Users/jonathanhorovitz/flight-quest/InitialTrainingSet_rev1/2012_11_12'
+let g:netrw_dirhist_6='/Users/jonathanhorovitz/flight-quest/InitialTrainingSet_rev1/2012_11_12/ASDI'
